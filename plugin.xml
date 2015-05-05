@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
   xmlns:android="http://schemas.android.com/apk/res/android"
-  id="com.raananw.imageResizer"
+  id="com.cordova.imageResizer"
   version="0.1.2">
 
 	<name>ImageResizer</name>
@@ -42,7 +42,7 @@
 	<platform name="android">
 		<config-file target="res/xml/config.xml" parent="/*">
 			<feature name="ImageResizePlugin">
-				<param name="android-package" value="com.raananw.ImageResizePlugin"/>
+				<param name="android-package" value="com.cordova.ImageResizePlugin"/>
 			</feature>
 		</config-file>
 
